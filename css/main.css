@@ -1,0 +1,582 @@
+body {
+  background: #000;
+  color: #fff;
+}
+body h1 {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+body .tips {
+  text-align: center;
+  font-size: 16px;
+}
+.main {
+  margin: 20px;
+  position: relative;
+}
+.main #cards {
+  height: 216px;
+  margin-bottom: 20px;
+}
+.main #cards > div {
+  background-position: -2139px -462px !important;
+}
+.main #desk {
+  width: 800px;
+  margin: 0 auto;
+}
+.main #desk > div {
+  position: static;
+  float: left;
+  margin: 20px;
+}
+.card {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+}
+.card-2a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: 0 0;
+}
+.card-2b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: 0 -231px;
+}
+.card-2c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: 0 -462px;
+}
+.card-2d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: 0 -692px;
+}
+.card-3a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -165px 0;
+}
+.card-3b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -165px -231px;
+}
+.card-3c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -165px -462px;
+}
+.card-3d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -165px -692px;
+}
+.card-4a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -328px 0;
+}
+.card-4b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -328px -231px;
+}
+.card-4c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -328px -462px;
+}
+.card-4d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -328px -692px;
+}
+.card-5a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -494px 0;
+}
+.card-5b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -494px -231px;
+}
+.card-5c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -494px -462px;
+}
+.card-5d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -494px -692px;
+}
+.card-6a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -658px 0;
+}
+.card-6b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -658px -231px;
+}
+.card-6c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -658px -462px;
+}
+.card-6d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -658px -692px;
+}
+.card-7a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -823px 0;
+}
+.card-7b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -823px -231px;
+}
+.card-7c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -823px -462px;
+}
+.card-7d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -823px -692px;
+}
+.card-8a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -987px 0;
+}
+.card-8b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -987px -231px;
+}
+.card-8c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -987px -462px;
+}
+.card-8d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -987px -692px;
+}
+.card-9a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1152px 0;
+}
+.card-9b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1152px -231px;
+}
+.card-9c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1152px -462px;
+}
+.card-9d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1152px -692px;
+}
+.card-10a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1317px 0;
+}
+.card-10b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1317px -231px;
+}
+.card-10c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1317px -462px;
+}
+.card-10d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1317px -692px;
+}
+.card-11a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1482px 0;
+}
+.card-11b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1482px -231px;
+}
+.card-11c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1482px -462px;
+}
+.card-11d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1482px -692px;
+}
+.card-12a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1646px 0;
+}
+.card-12b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1646px -231px;
+}
+.card-12c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1646px -462px;
+}
+.card-12d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1646px -692px;
+}
+.card-13a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1811px 0;
+}
+.card-13b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1811px -231px;
+}
+.card-13c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1811px -462px;
+}
+.card-13d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1811px -692px;
+}
+.card-1a {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1975px 0;
+}
+.card-1b {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1975px -231px;
+}
+.card-1c {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1975px -462px;
+}
+.card-1d {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -1975px -692px;
+}
+.card-ja {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -2141px 0;
+}
+.card-jb {
+  width: 152px;
+  height: 216px;
+  background-image: url(../img/cards.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s linear;
+  left: 0;
+  background-position: -2141px -231px;
+}
